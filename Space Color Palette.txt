@@ -1,0 +1,27 @@
+Space Color Palette:
+
+Primary Colors:
+
+Navy Blue:
+Hex: #001F3F
+RGB: (0, 31, 63)
+Nebula Purple:
+Hex: #9370DB
+RGB: (147, 112, 219)
+Cosmic Teal:
+Hex: #00ADB5
+RGB: (0, 173, 181)
+Starlight Yellow:
+Hex: #FFD700
+RGB: (255, 215, 0)
+
+
+
+Accent Colors:
+
+Lunar Gray:
+Hex: #D3D3D3
+RGB: (211, 211, 211)
+Solar Orange:
+Hex: #FFA500
+RGB: (255, 165, 0)
