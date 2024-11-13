@@ -4,7 +4,7 @@
 
 ### Primary Colors
 
-- **Deep Space Black:** `#000033`
+- **Deep Space Black:** `#000020`
 - **Cosmic White:** `#FFFFFF`
 - **Nebula Blue:** `#03045E`
 - **Star Blue:** `#0077B6`
@@ -16,6 +16,9 @@
 
 - **Mars Red:** `#6a040f`
 - **Cosmic Purple:** `#480ca8`
+- **Cosmic Yellow:** `#ffdab3`
+- **AccentYellow:** `#eeddcb`
+- **Black:** `#000000`
 
 ## Typography
 
