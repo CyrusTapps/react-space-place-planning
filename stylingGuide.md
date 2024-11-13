@@ -4,7 +4,7 @@
 
 ### Primary Colors
 
-- **Deep Space Black:** `#000000`
+- **Deep Space Black:** `#000033`
 - **Cosmic White:** `#FFFFFF`
 - **Nebula Blue:** `#03045E`
 - **Star Blue:** `#0077B6`
