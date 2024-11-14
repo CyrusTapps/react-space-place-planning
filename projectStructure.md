@@ -4,7 +4,12 @@ react-space-place/
 ├── src/                              # Source files
 │   ├── assets/                       # Static assets
 │   │   ├── images/                   # Image assets
+│   │   ├── icons/                    # Custom SVG icons
 │   ├── components/                   # React components
+│   │   ├── common/                   # Shared components
+│   │   │   ├── icons/               # Icon wrapper components
+│   │   │   │   ├── IconButton.jsx   # Reusable icon button component
+│   │   │   │   ├── IconWrapper.jsx  # Icon wrapper with common styling
 │   │   ├── Header.jsx
 │   │   ├── Footer.jsx
 │   │   ├── MainViewer.jsx
@@ -38,7 +43,7 @@ react-space-place/
 │   │   ├── SolSysModelPage.jsx
 │   ├── store/                        # Zustand store
 │   │   ├── useStore.js              # Main store file
-│   ├── styles/                       # Stylesheets
+│   ├���─ styles/                       # Stylesheets
 │   │   ├── index.css                # Global styles + Tailwind imports
 │   │   ├── App.css
 │   │   ├── components/              # Component styles
@@ -47,6 +52,7 @@ react-space-place/
 │   │   │   │   ├── buttons.js
 │   │   │   │   ├── containers.js
 │   │   │   │   ├── typography.js
+│   │   │   │   ├── icons.js       # Styled icon components
 │   │   │   ├── theme.js           # Emotion theme configuration
 │   │   ├── animations/             # Framer Motion animations
 │   │   │   ├── variants/          # Animation variants
@@ -83,6 +89,7 @@ react-space-place/
   "dependencies": {
     "@emotion/react": "^11.11.x",
     "@emotion/styled": "^11.11.x",
+    "@heroicons/react": "^2.1.x",
     "axios": "^1.6.x",
     "framer-motion": "^10.16.x",
     "react": "^18.2.x",
@@ -106,3 +113,5 @@ react-space-place/
     "vite": "^5.1.x"
   }
 }
+
+###### Note: Removed MUI and Three.js for now
