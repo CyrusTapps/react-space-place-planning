@@ -1,6 +1,6 @@
 # React Space Place Planning - Project Structure
 
-project-root/
+react-space-place/
 ├── .github/ # GitHub specific files
 ├── public/ # Static files
 ├── src/ # Source files
