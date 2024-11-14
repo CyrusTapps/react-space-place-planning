@@ -67,8 +67,15 @@ react-space-place/
 │ │ │ ├── IODPauseButton.css
 │ │ │ ├── IODPlayButton.css
 │ │ │ ├── IODBackButton.css
-│ ├── App.jsx
+│ ��── App.jsx
 │ ├── main.jsx # Entry point
+│ ├── api/ # API related files
+│ │ ├── axios.js # Axios instance and interceptors
+│ │ │ ├── endpoints.js # API endpoints constants
+│ │ │ ├── services/ # API service modules
+│ │ │ │ ├── issService.js # ISS API related calls
+│ │ │ │ ├── nasaService.js # NASA API related calls
+│ │ │ │ ├── spaceNewsService.js # Space News API related calls
 ├── android/ # Capacitor Android platform
 ├── ios/ # Capacitor iOS platform
 ├── .env # Environment variables
