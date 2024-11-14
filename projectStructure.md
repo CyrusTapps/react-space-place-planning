@@ -67,7 +67,19 @@ react-space-place/
 │ │ │ ├── IODPauseButton.css
 │ │ │ ├── IODPlayButton.css
 │ │ │ ├── IODBackButton.css
-│ ��── App.jsx
+│ │ ├── emotion/ # Emotion styled-components
+│ │ │ ├── common/ # Reusable styled components
+│ │ │ │ ├── buttons.js
+│ │ │ │ ├── containers.js
+│ │ │ │ ├── typography.js
+│ │ │ │ ├── theme.js # Emotion theme configuration
+│ │ ├── animations/ # Framer Motion animations
+│ │ │ ├── variants/ # Animation variants
+│ │ │ │ ├── fadeAnimations.js
+│ │ │ │ ├── slideAnimations.js
+│ │ │ │ ├── pageAnimations.js
+│ │ │ ├── transitions.js # Common transition presets
+│ │ ├── App.jsx
 │ ├── main.jsx # Entry point
 │ ├── api/ # API related files
 │ │ ├── axios.js # Axios instance and interceptors
@@ -88,3 +100,35 @@ react-space-place/
 ├── vite.config.js # Vite configuration (changed from .ts)
 ├── routes.js # Route configurations (changed from .tsx)
 └── README.md
+
+### Updated Proposed Dependencies:
+
+{
+"dependencies": {
+"@emotion/react": "^11.11.x",
+"@emotion/styled": "^11.11.x",
+"axios": "^1.6.x",
+"framer-motion": "^10.16.x",
+"react": "^18.2.x",
+"react-dom": "^18.2.x",
+"react-router-dom": "^6.22.x",
+"swiper": "^11.0.x",
+"zustand": "^4.5.x"
+},
+"devDependencies": {
+"@capacitor/android": "^5.7.x",
+"@capacitor/cli": "^5.7.x",
+"@capacitor/core": "^5.7.x",
+"@capacitor/ios": "^5.7.x",
+"@emotion/babel-plugin": "^11.11.x",
+"@types/react": "^18.2.x",
+"@types/react-dom": "^18.2.x",
+"@vitejs/plugin-react": "^4.2.x",
+"autoprefixer": "^10.4.x",
+"postcss": "^8.4.x",
+"tailwindcss": "^3.4.x",
+"vite": "^5.1.x"
+}
+}
+
+<!-- Removed MUI and Three.js for now -->
