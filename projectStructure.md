@@ -101,7 +101,7 @@ react-space-place/
 ├── routes.js # Route configurations (changed from .tsx)
 └── README.md
 
-### Updated Proposed Dependencies:
+## Dependencies
 
 {
 "dependencies": {
